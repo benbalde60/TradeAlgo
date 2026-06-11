@@ -95,20 +95,7 @@ Align macroeconomic surprises with price timeline
 Generate S-score from multi-factor fusion
 Execute trades in simulated environment
 Track equity curve and performance metrics
-Project Structure
-TradeAlgo/
-│
-├── run_pipeline.py        # Main orchestration script
-├── backtest.py            # Event-driven backtesting engine
-├── aggregator.py          # Sentiment window + aggregation logic
-├── sentiment.py           # NLP sentiment scoring (Transformer-based)
-├── events.py              # Macro event surprise modeling
-├── technical.py           # Technical indicators (ATR, EMA, etc.)
-├── my_Signal.py           # S-score decision logic
-├── filter.py              # Bot filtering / credibility scoring
-├── news_feed.csv          # News dataset
-├── events.csv             # Economic calendar data
-├── eurusd_1h.csv          # Price dataset
+
 📈 Example Output
 Total PnL: 5833.10
 Win rate: 75%
@@ -117,7 +104,7 @@ Trades executed: 12
 
 Note: Results are dependent on dataset size, signal thresholds, and backtest configuration.
 
-⚠️ Limitations
+Limitations
 
 This project is a research-grade prototype, not a production trading system.
 
