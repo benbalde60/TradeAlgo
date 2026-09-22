@@ -126,4 +126,4 @@ Planned enhancements:
  Sharpe ratio + statistical significance testing
  Regime detection (trend vs mean reversion)
  Probabilistic position sizing model
- Live data ingestion (broker API integration)
+ Live data ingestion (broker API integration).
